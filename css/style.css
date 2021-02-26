@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #FFF8F1;
+  padding: 15px
+}
+header ul {
+  float: right;
+  color: black;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 5px 0px;
+  position: right;
+}
+.content {
+  max-width:2000px;
+  max-height: 1000px;
+  margin: 0 auto;
+  padding: 70px 70px;
+  background-color: #FFF8F1;
+  text-align: left;
+}
+button {
+  padding: 15px;
+  background-color: #d2492b;
+  color: white;
+  font-size: 15px;
+  border-radius: 0;
+}
+footer {
+  background-color: #373738;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+/* My UX Skills Section */
+.flexContainer {
+  display: flex;
+  padding: 15px 0px;
+  object-position: center;
+  text-align: center;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 15px;
+  background-color: #FFF8F1
+}
+
+/* My Work Section */
+.myWork {
+  padding: 30px 30px;
+  padding-top: 15px;
+  background-color: #FFF8F1;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+
+.img1, .img2, .img3, .content1, .content2, .content3, {
+  padding: 10px;
+}
+
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+/* HW_19 Tabs Section */
+
+.tab{
+  overflow: hidden;
+  border: 1px solid #d2492b;
+  background-color: #FFF8F1;
+}
+.tab button{
+  background-color:inherit;
+  float:none;
+  border:3px #d2492b;
+  outline: none;
+  cursor:pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+}
+.tab button:hover{
+  background-color:#d2492b;
+}
+.tab button.active{
+  background-color:#d2492b;
+}
+p{
+  color: black;
+}
+.tabcontent{
+  display:none;
+  padding:6px 12px;
+  border:1px solid #d2492b;
+  border-top:none;
+}
+
